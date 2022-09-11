@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fresh N Tasty</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Bootstrap css cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom css -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.0/swiper-bundle.min.js" integrity="sha512-+oUge+PHyEv6R7xjWkZ9zeGWbRLIs24P6/2afAClEZi+kZ2vsK+Di4Ud9ON39uAbkkcCrewO3ayzk2765bbPpw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.0/swiper-bundle.css" integrity="sha512-W3EpFysZWfMjkA5NIsJ1jQbd2CvZrEY0YRB16wlQdePUuxykf4E47/Yqajz2vkCRcMYkxY9+CHY6r2Al0AExBQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <header>
+    <!-- upper nav -->
+    <section class="d-flex">
+      <div class="ps-5">
+        <i class="fa-solid fa-phone"></i><a href="#">1800-313-3302</a>
+        <i class="fa-solid fa-message"></i><a href="#">customercare@freshtohome.com</a>
+      </div>
+
+      <div class="ms-auto">
+
+
+        <a>Certificates</a>
+        <a>Why Us</a>
+        <a>Download App</a>
+
+
+
+      </div>
+
+
+    </section>
+    <!-- upper nav -->
+
+
+
+    <!-- middle nav -->
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-4" href="index.html"><img src="https://static.freshtohome.com/images/logo/2021/logo-medium.png"
+            width="100" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="signin">
+          <a href="#" class="text-danger"><i class="fa-solid fa-unlock-keyhole"></i></a>
+          <a href="#" class="login">Log In</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <form class="d-flex mx-auto" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search From 100% Fresh products"
+              aria-label="Search">
+            <a href="#"></a><i class="fa-solid fa-magnifying-glass"></i></a>
+          </form>
+
+          <div class="cart me-5 p-2 rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <span class="text-danger fw-bold">
+              <p>99+</p>
+            </span>
+          </div>
+
+        
+
+          
+        </div>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Your's Order</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- middle nav -->
+
+
+    <!-- last nav -->
+    <nav class="navbar navbar-expand-lg bg-white border navbar_last">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="category.html">Chicken</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="category.html">Mutton</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="category.html">Eggs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="category.html">Fish</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="category.html">Seafood</a>
+            </li>
+            
+
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!-- last nav -->
+  </header>
+
+
+ 
+
+
+  <!-- Category -->
+  <!-- <img src="./img/chicken/#VAR1" class="img-fluid" alt="..."> -->
+
+  <h3 class="text-center my-4">Marine Fish - Cleaned Options Available</h3>
+  <div class="mx-4">
+    <div class="row" id="card-gallery">
+    </div>
+    <script type="text/javascript">
+      function card_generator() {
+        template = `
+        <div class="col-lg-3 py-2 card_wrapper">
+          <div class="card">
+            <div class="card-head">
+              <a href="product.html">
+              <img src="./img/Fish/#VAR1" alt="" class="img-fluid">
+              </a>
+              
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title"> Premium Tender and Antibiotic-residue-free Chicken #INDEX</h5>
+              <p class="card-text">
+              <span>
+                <s>₹#PRICE</s></span>
+                <span style="color:#3C8031">₹#DISCOUNTED_PRICE / 500g</span>
+                </p>
+                
+                <p style="font-size:14px">Best Chicken Product You will ever taste..... </p>
+
+            </div>
+          </div>
+        </div>
+        `
+        imagenames = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg","6.jpg", "7.jpg", "8.jpg", "9.jpg"];
+        var count = 0
+        for (let i of imagenames) {
+          PRICE = getRandomInt(100, 500)
+          $('#card-gallery').append(
+            template.replace('#VAR1', i)
+              .replace('#INDEX', ++count)
+              .replace('#PRICE', PRICE)
+              .replace('#DISCOUNTED_PRICE', PRICE - PRICE / 10)
+          )
+        }
+      }
+
+      function addToCart() {
+        swal("Product Added To Cart!", "Your Meat Is added Successfully, Go To Cart to Finalize the purchase", "success");
+      }
+      $(document).ready(function () {
+        card_generator()
+
+      });
+    </script>
+  </div>
+
+  <script type="text/javascript">
+    function getRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+    }
+  </script>
+
+  <!-- products -->
+
+  <!-- footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <!--Widgets Section-->
+      <div class="widgets-section">
+        <div class="row clearfix">
+
+          <!--Column-->
+          <div class="big-column col-lg-6 col-md-12 col-sm-12">
+            <div class="row clearfix">
+
+              <!--Footer Column-->
+              <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                <div class="footer-widget about-widget">
+                  <div class="logo">
+                    <a href="#"><img src="https://static.freshtohome.com/images/logo/2021/logo-medium.png" alt=""  width="100"/></a>
+                  </div>
+                  <div class="text">
+                    <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore
+                      magna aliqua enim ad minim veniam.</p>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <!--Footer Column-->
+              <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                <div class="footer-widget links-widget">
+                  <h2>Quick Links</h2>
+                  <ul class="footer-list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!--Column-->
+          <div class="big-column col-lg-6 col-md-12 col-sm-12">
+            <div class="row clearfix">
+
+              <!--Footer Column-->
+              <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget gallery-widget">
+                  <h2>Gallery</h2>
+                  <div class="widget-content">
+                    <div class="http://t.commonsupport.com/morris/images-outer clearfix">
+                      <!--Image Box-->
+                      <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery"
+                          title="Image Title Here" data-fancybox-group="footer-gallery"><img
+                            src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt=""></a></figure>
+                      <!--Image Box-->
+                      <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery"
+                          title="Image Title Here" data-fancybox-group="footer-gallery"><img
+                            src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt=""></a></figure>
+                      <!--Image Box-->
+                      <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery"
+                          title="Image Title Here" data-fancybox-group="footer-gallery"><img
+                            src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt=""></a></figure>
+                      <!--Image Box-->
+                      <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery"
+                          title="Image Title Here" data-fancybox-group="footer-gallery"><img
+                            src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt=""></a></figure>
+                      <!--Image Box-->
+                      <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery"
+                          title="Image Title Here" data-fancybox-group="footer-gallery"><img
+                            src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt=""></a></figure>
+                      <!--Image Box-->
+                      <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery"
+                          title="Image Title Here" data-fancybox-group="footer-gallery"><img
+                            src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt=""></a></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Footer Column-->
+              <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget info-widget">
+                  <h2>Contact Info</h2>
+                  <ul class="info-list">
+                    <li>Flat 20, Reynolds Neck, North Hele naville, FV77 8WS</li>
+                    <li>+2(305) 587-3407</li>
+                    <li>info@morris.com</li>
+                  </ul>
+                  <!-- Social Links -->
+                  <ul class="social-links">
+                    <li class="google"><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                    <li class="facebook"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                    <li class="instagram"><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    <li class="twitter"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row clearfix">
+
+          <div class="column col-lg-6 col-md-12 col-sm-12">
+            <div class="copyright"><span class="theme_color">Fresh N Tasty</span> &copy; 2022 All Right Reserved</div>
+          </div>
+          <div class="column col-lg-6 col-md-12 col-sm-12">
+            <ul class="footer-nav">
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- footer -->
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>
